@@ -6,6 +6,8 @@ import StatefulGreeting from './components/StatefulGreetingWithPrevState';
 import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
 import NavBarSimple from "./components/NavBarSimple";
 import Sidebar from "./components/Sidebar";
+import EventsFunctional from "./components/EventsFunctional";
+import EventsClass from "./components/EventsClass";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       {/* Add your components here */}
       <NavBarSimple />
       <Sidebar />
+      <EventsFunctional />
+      <EventsClass />
     </div>
 
     // <div className="App">

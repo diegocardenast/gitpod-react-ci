@@ -5,19 +5,27 @@ import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProp
 import StatefulGreeting from './components/StatefulGreetingWithPrevState';
 import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
 import NavBarSimple from "./components/NavBarSimple";
+import NavBarForm from "./components/NavBarForm";
 import Sidebar from "./components/Sidebar";
 import EventsFunctional from "./components/EventsFunctional";
 import EventsClass from "./components/EventsClass";
 
 function App() {
   return (
+
     <div className={css.App}>
       {/* Add your components here */}
-      <NavBarSimple />
+      <NavBarForm />
       <Sidebar />
-      <EventsFunctional />
-      <EventsClass />
     </div>
+
+    //<div className={css.App}>
+    //  {/* Add your components here */}
+    //  <NavBarSimple />
+    //  <Sidebar />
+    //  <EventsFunctional />
+    //  <EventsClass />
+    //</div>
 
     // <div className="App">
     //   <FunctionalGreetingWithProps greeting="nice to meet you!" name="Mike" age="32" />

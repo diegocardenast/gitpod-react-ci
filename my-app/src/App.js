@@ -12,6 +12,7 @@ import EventsFunctional from "./components/EventsFunctional";
 import EventsClass from "./components/EventsClass";
 import LifeCyclesCDM from "./components/LifeCyclesCDM";
 import LifeCyclesCDU from "./components/LifeCyclesCDU";
+import { SearchBar3 } from "./components/SearchBar3";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <NavBarForm />
       <Sidebar />
       <Content />
+      {/* <SearchBar3 /> */}
     </div>
 
     //<div className={css.App}>

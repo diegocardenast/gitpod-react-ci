@@ -7,16 +7,21 @@ import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrev
 import NavBarSimple from "./components/NavBarSimple";
 import NavBarForm from "./components/NavBarForm";
 import Sidebar from "./components/Sidebar";
+import Content from "./components/Content";
 import EventsFunctional from "./components/EventsFunctional";
 import EventsClass from "./components/EventsClass";
+import LifeCyclesCDM from "./components/LifeCyclesCDM";
+import LifeCyclesCDU from "./components/LifeCyclesCDU";
 
 function App() {
   return (
 
     <div className={css.App}>
       {/* Add your components here */}
+      {/* <LifeCyclesCDU /> */}
       <NavBarForm />
       <Sidebar />
+      <Content />
     </div>
 
     //<div className={css.App}>

@@ -15,6 +15,8 @@ import LifeCyclesCDU from "./components/LifeCyclesCDU";
 import { SearchBar3 } from "./components/SearchBar3";
 import UseStateWithArrays from "./components/UseStateWithArrays";
 import UseEffectCounter from "./components/UseEffectCounter";
+import UseEffectCounterContainer from "./components/UseEffectCounterContainer";
+import Content from "./components/ContentHooks";
 
 function App() {
   return (

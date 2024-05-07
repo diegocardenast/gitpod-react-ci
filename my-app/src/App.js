@@ -17,6 +17,7 @@ import UseStateWithArrays from "./components/UseStateWithArrays";
 import UseEffectCounter from "./components/UseEffectCounter";
 import UseEffectCounterContainer from "./components/UseEffectCounterContainer";
 import ContentHooks from "./components/ContentHooks";
+import HTTPRequests from "./components/HTTPRequests";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       {/* <UseStateWithArrays /> */}
       {/* <UseEffectCounter />  */}
       <ContentHooks />
+      {/* <HTTPRequests /> */}
     </div>
 
     //<div className={css.App}>

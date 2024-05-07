@@ -14,6 +14,7 @@ import LifeCyclesCDM from "./components/LifeCyclesCDM";
 import LifeCyclesCDU from "./components/LifeCyclesCDU";
 import { SearchBar3 } from "./components/SearchBar3";
 import UseStateWithArrays from "./components/UseStateWithArrays";
+import UseEffectCounter from "./components/UseEffectCounter";
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
       <Sidebar />
       <Content /> */}
       {/* <SearchBar3 /> */}
-      <UseStateWithArrays /> 
+      {/* <UseStateWithArrays /> */}
+      <UseEffectCounter /> 
     </div>
 
     //<div className={css.App}>

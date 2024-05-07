@@ -16,7 +16,7 @@ import { SearchBar3 } from "./components/SearchBar3";
 import UseStateWithArrays from "./components/UseStateWithArrays";
 import UseEffectCounter from "./components/UseEffectCounter";
 import UseEffectCounterContainer from "./components/UseEffectCounterContainer";
-import Content from "./components/ContentHooks";
+import ContentHooks from "./components/ContentHooks";
 
 function App() {
   return (
@@ -24,12 +24,13 @@ function App() {
     <div className={css.App}>
       {/* Add your components here */}
       {/* <LifeCyclesCDU /> */}
-      {/* <NavBarForm />
+      <NavBarForm />
       <Sidebar />
-      <Content /> */}
+      {/* <Content /> */}
       {/* <SearchBar3 /> */}
       {/* <UseStateWithArrays /> */}
-      <UseEffectCounter /> 
+      {/* <UseEffectCounter />  */}
+      <ContentHooks />
     </div>
 
     //<div className={css.App}>

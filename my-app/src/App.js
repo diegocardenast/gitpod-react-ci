@@ -18,6 +18,10 @@ import UseEffectCounter from "./components/UseEffectCounter";
 import UseEffectCounterContainer from "./components/UseEffectCounterContainer";
 import ContentHooks from "./components/ContentHooks";
 import HTTPRequests from "./components/HTTPRequests";
+import HTTPPost from "./components/HTTPPost";
+import HTTPHooks from "./components/HTTPHooks";
+import ContentAPI from "./components/ContentAPI";
+import ContentAPIHooks from "./components/ContentAPIHooks";
 
 function App() {
   return (
@@ -31,8 +35,11 @@ function App() {
       {/* <SearchBar3 /> */}
       {/* <UseStateWithArrays /> */}
       {/* <UseEffectCounter />  */}
-      <ContentHooks />
+      {/* <ContentHooks /> */}
       {/* <HTTPRequests /> */}
+      {/* <HTTPHooks /> */}
+      {/* <ContentAPI /> */}
+      <ContentAPIHooks />
     </div>
 
     //<div className={css.App}>

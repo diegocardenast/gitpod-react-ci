@@ -13,6 +13,7 @@ import EventsClass from "./components/EventsClass";
 import LifeCyclesCDM from "./components/LifeCyclesCDM";
 import LifeCyclesCDU from "./components/LifeCyclesCDU";
 import { SearchBar3 } from "./components/SearchBar3";
+import UseStateWithArrays from "./components/UseStateWithArrays";
 
 function App() {
   return (
@@ -20,10 +21,11 @@ function App() {
     <div className={css.App}>
       {/* Add your components here */}
       {/* <LifeCyclesCDU /> */}
-      <NavBarForm />
+      {/* <NavBarForm />
       <Sidebar />
-      <Content />
+      <Content /> */}
       {/* <SearchBar3 /> */}
+      <UseStateWithArrays /> 
     </div>
 
     //<div className={css.App}>
